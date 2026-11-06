@@ -1,0 +1,17 @@
+{
+  "name": "problem-solving-data-organization",
+  "version": "1.0.0",
+  "description": "Problem Solving and Data Organization Assignment",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "benchmark": "tsx benchmarks/maze.benchmark.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.9.0",
+    "vitest": "^3.2.0"
+  }
+}
