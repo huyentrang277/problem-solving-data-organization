@@ -1,7 +1,6 @@
 
-/**
- * Kiểm tra một số có phải số nguyên tố hay không.
- */
+// Kiểm tra một số có phải số nguyên tố hay không.
+
 function isPrime(num: number): boolean {
     if (num < 2) {
         return false;
